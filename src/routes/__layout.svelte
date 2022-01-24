@@ -1,14 +1,10 @@
 <script>
 	import '../app.css';
+	import Navbar from '$lib/components/navbar.svelte'
 </script>
 
 <!-- header -->
-<ul>
-	<li><a href="/">Home</a></li>
-	<li><a href="/about">About</a></li>
-	<li><a href="/faq">FAQ</a></li>
-	<li><a href="/presskit">Press Kit</a></li>
-</ul>
+<Navbar />
 <!-- /header -->
 
 <slot />
